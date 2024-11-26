@@ -135,4 +135,11 @@ describe('Cadastro de Usuário', () => {
 
 - Referências / Anexos
    - Site Clube da Pipoca Cinesystem: https://clubedapipoca.cinesystem.com.br/
-   - Tela de Cadastros: https://clubedapipoca.cinesystem.com.br/cadastro/
+   - Link da tela de Cadastro: https://clubedapipoca.cinesystem.com.br/cadastro/
+   - Tela de Cadastro:  
+![tela-de-cadastro](https://github.com/user-attachments/assets/2e47f2c8-40d9-4e1c-b8ad-522aecb67739)
+   - Tela de Cadastro Preenchido:  
+![tela-de-cadastro-preenchido](https://github.com/user-attachments/assets/24b7a68d-e7b8-4da4-9ffd-d518c6c0c7e0)
+   - E-mail de Confirmação do Cadastro:
+![clique-para-validar-sua-conta](https://github.com/user-attachments/assets/823da163-d163-4bcb-9e67-acaea9f61218)
+
