@@ -131,7 +131,7 @@ describe('Cadastro de Usuário', () => {
 - Certificar-se de que todos os casos foram executados, erros documentados e re-testes realizados.
 
 - Responsáveis pela Execução 
-   - QA Beatriz Rodrigues será responsável por realizar a execução dos casos e validação dos resultados.
+   - QA: Beatriz Rodrigues será responsável por realizar a execução dos casos e validação dos resultados.
 
 - Referências / Anexos
    - Site Clube da Pipoca Cinesystem: https://clubedapipoca.cinesystem.com.br/
