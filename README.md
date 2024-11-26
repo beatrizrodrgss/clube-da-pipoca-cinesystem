@@ -91,15 +91,16 @@ Feature: Cadastro de novos usuários
     Given Estou na página de cadastro
     When Preencho "Nome" com "João Silva"
     And Preencho "Data de Nascimento" com "15/08/1990"
-    And Preencho "CPF" com "123.456.789-00"
-    And Preencho "E-mail" com "joao.silva@example.com"
-    And Seleciono "Cinema" com "Shopping A"
+    And Preencho "CPF" com "646.419.610-34"
+    And Preencho "E-mail" com "joao.silva@uorak.com"
+    And Seleciono "Cinema" com "Curitiba (Shopping Cidade)"
     And Preencho "Celular" com "(11) 98765-4321"
     And Preencho "Senha" com "SenhaForte123"
     And Preencho "Confirmação" com "SenhaForte123"
+    And Preencho "Confirmação" com "SenhaForte123"
     And Marco o checkbox "Aceite dos Termos"
-    And Clico no botão "Cadastrar"
-    Then Vejo a mensagem "Cadastro realizado com sucesso"
+    And Clico no botão "Concluir cadastro básico e ganhar 50 pontos"
+    Then Redirecionado a tela com a mensagem "Valeu! Seus dados foram enviados com sucesso. Enviamos um e-mail para sua caixa de entrada para validacao de seu cadastro. Ao validar o e-mail voce recebera 50 pontos."
 ```
 #### Exemplo de Teste TDD com Cypress
 ```javascript
@@ -108,9 +109,9 @@ describe('Cadastro de Usuário', () => {
     cy.visit('/cadastro');
     cy.get('#nome').type('João Silva');
     cy.get('#dataNascimento').type('15/08/1990');
-    cy.get('#cpf').type('123.456.789-00');
-    cy.get('#email').type('joao.silva@example.com');
-    cy.get('#cinema').select('Shopping A');
+    cy.get('#cpf').type('646.419.610-34');
+    cy.get('#email').type('joao.silva@uorak.com');
+    cy.get('#cinema').select('Curitiba Shopping Cidade');
     cy.get('#celular').type('(11) 98765-4321');
     cy.get('#senha').type('SenhaForte123');
     cy.get('#confirmarSenha').type('SenhaForte123');
