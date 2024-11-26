@@ -49,7 +49,7 @@ Verificar que:
 #### Testes de Performance:
 - K6: Simulação de carga para endpoints de backend (se o cadastro envolver APIs).
 #### Validação Manual:
-- Planilhas para controle inicial ou ferramentas simples como Google Sheets.
+- Planilhas para controle inicial. (Ferramentas simples como Excel e Google Sheets).
 
 ### 6. Casos de Teste
 ### Funcionalidade
